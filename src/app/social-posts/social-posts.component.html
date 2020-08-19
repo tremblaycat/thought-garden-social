@@ -1,0 +1,13 @@
+<main class="main">
+  <button *ngIf="showForm === false" (click)="toggleForm()">New Thought</button>
+  <app-post-form (submitted)="onSubmit($event)" *ngIf="showForm === true">
+  </app-post-form>
+  <ul>
+    <app-post
+      class="list"
+      *ngFor="let post of posts; index as i"
+      [post]="post"
+      (deleted)="onDelete(i)"
+    ></app-post>
+  </ul>
+</main>

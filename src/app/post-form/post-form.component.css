@@ -1,0 +1,24 @@
+.h1 {
+  font-family: "Homemade Apple", cursive;
+  color: rgb(3, 169, 244);
+}
+
+.form-container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.thought-form {
+  background-color: #b1ddea;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
