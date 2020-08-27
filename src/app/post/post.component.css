@@ -1,0 +1,11 @@
+.list-item {
+  padding: 20px;
+  border-bottom: 2px dashed #33673b;
+}
+
+.delete-button {
+  background-color: #33673b;
+  border: 2px solid #33673b;
+  border-radius: 50px;
+  color: #eff8e2;
+}

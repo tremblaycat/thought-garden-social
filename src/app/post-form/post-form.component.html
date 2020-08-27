@@ -1,13 +1,11 @@
 <section class="form-section">
-  <h1 class="h1">My Thoughts</h1>
-
   <div class="form-container">
     <form class="thought-form" #addForm="ngForm" (ngSubmit)="addPost(addForm)">
-      <label for="title">Title</label>
-      <input type="text" id="title" name="title" ngModel />
+      <label for="date">Date</label>
+      <input class="input" type="text" id="date" name="date" ngModel />
       <label for="thought">Thought</label>
-      <input type="text" id="thought" name="thought" ngModel />
-      <button>Submit</button>
+      <input class="input" type="text" id="thought" name="thought" ngModel />
+      <button class="add-button">Add</button>
     </form>
   </div>
 </section>

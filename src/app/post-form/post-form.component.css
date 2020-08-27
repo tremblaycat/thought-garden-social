@@ -1,8 +1,3 @@
-.h1 {
-  font-family: "Homemade Apple", cursive;
-  color: rgb(3, 169, 244);
-}
-
 .form-container {
   position: fixed;
   display: flex;
@@ -16,9 +11,40 @@
 }
 
 .thought-form {
-  background-color: #b1ddea;
+  background-color: #33673b;
   margin: 10px;
   padding: 10px;
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #33673b;
+  outline: none;
+  overflow-wrap: unset;
+  color: #fc9f5b;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fc9f5b;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.add-button {
+  background-color: black;
+  color: #fc9f5b;
+  border: 0;
+  padding: 10px;
 }

@@ -1,6 +1,16 @@
 <main class="main">
-  <button *ngIf="showForm === false" (click)="toggleForm()">New Thought</button>
-  <app-post-form (submitted)="onSubmit($event)" *ngIf="showForm === true">
+  <button
+    class="thought-button"
+    *ngIf="showForm === false"
+    (click)="toggleForm()"
+  >
+    Plant
+  </button>
+  <app-post-form
+    class="post-form"
+    (submitted)="onSubmit($event)"
+    *ngIf="showForm === true"
+  >
   </app-post-form>
   <ul>
     <app-post

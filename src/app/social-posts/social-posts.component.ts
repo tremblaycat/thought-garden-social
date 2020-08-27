@@ -9,12 +9,14 @@ import { Post } from '../interfaces/post';
 export class SocialPostsComponent implements OnInit {
   posts: Post[] = [
     {
-      title: 'LOVE',
-      thought: 'I love unicorns!',
+      date: 'August 21, 2020',
+      thought:
+        '"If I can stop one heart from breaking, I shall not live in vain." -Emily Dickinson',
     },
     {
-      title: 'Today',
-      thought: 'My doggo was cute.',
+      date: 'August 28, 2020',
+      thought:
+        'Today I finished an Angular group project, and then we had the assessment. I hope I did well! -CT',
     },
   ];
 

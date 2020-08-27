@@ -1,7 +1,7 @@
-<li>
+<li class="list-item">
   <div>
-    <p>{{ post.title }}</p>
-    <p>{{ post.thought }}</p>
-    <button (click)="deletePost()">X</button>
+    <p class="date">{{ post.date }}</p>
+    <p class="thought">{{ post.thought }}</p>
+    <button class="delete-button" (click)="deletePost()">X</button>
   </div>
 </li>

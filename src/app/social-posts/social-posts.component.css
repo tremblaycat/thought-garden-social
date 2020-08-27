@@ -1,7 +1,22 @@
 .main {
   background-color: white;
-  width: 75%;
+  margin: 0px 30px 30px 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+
+.thought-button {
+  background-color: #fc9f5b;
+  border: none;
+  padding: 10px;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+}
+
+.thought-button:hover {
+  background-color: #33673b;
+}
+
+.list {
+  list-style: none;
 }

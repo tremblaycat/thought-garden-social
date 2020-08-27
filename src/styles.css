@@ -1,5 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  font-family: "Dosis", sans-serif;
-  background-color: #f3f1f7;
+  font-family: "Patrick Hand", cursive;
+  background-color: #eff8e2;
+  color: #232020;
+}
+
+ul,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: "Patrick Hand", cursive;
 }
